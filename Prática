@@ -1,0 +1,32 @@
+let nome = prompt ('Digite o nome de usuário:')
+alert ('Seja bem vindo(a) ' + nome)
+
+let saldoDaConta = 10000
+alert('O saldo da sua conta é de R$' + saldoDaConta);
+
+let pontuaçaoDoJogo = prompt ('Digite sua pontuação:')
+
+if (pontuaçaoDoJogo >= 100){
+    alert('Parabéns, você venceu!')
+}
+else {
+    alert ('Tente novamente para ganhar.')
+}
+
+let diaDaSemana = prompt ('Qual é o dia da semana?');
+
+if (diaDaSemana == 'Sábado' | diaDaSemana == 'Domingo'){
+    alert ('Bom fim de semana!');
+}
+else {
+    alert('Boa semana!');
+}
+
+let numero = prompt ('Digite um número positivo ou negativo:')
+
+if (numero < 0){
+    alert ('Este é um número negativo')
+}
+else {
+    alert ('Este é um número positivo')
+}
